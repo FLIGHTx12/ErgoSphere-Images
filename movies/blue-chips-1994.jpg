@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="csrf-token" content="">
+
+        <link rel="shortcut icon" href="/svg/paramount-movies-logo.svg">
+
+        <title>
+            Paramount Movies
+        </title>
+
+        
+        
+        
+        
+        <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/images/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        
+        <link href="/fonts/Montserrat-Bold.ttf" rel="preload" as="font" type="font/ttf" crossorigin="anonymous">
+        <link href="/fonts/Montserrat-Regular.ttf" rel="preload" as="font" type="font/ttf" crossorigin="anonymous">
+        <link href="/fonts/Montserrat-SemiBold.ttf" rel="preload" as="font" type="font/ttf" crossorigin="anonymous">
+        <link href="/fonts/Oswald-Light.ttf" rel="preload" as="font" type="font/ttf" crossorigin="anonymous">
+        <link href="/fonts/Oswald-Medium.ttf" rel="preload" as="font" type="font/ttf" crossorigin="anonymous">
+
+        
+        <link href="/css/website.css?id=3a169faad4473b0bbeb6" rel="stylesheet">
+
+        <meta name="google-site-verification" content="1y0ypQdDWPuP8zrDicZN3VSN9xLSDp52IA2keNfw4EA" />
+
+        
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=137SvL6huEOmOVCzAeDyWQ&gtm_preview=env-1&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MQFGNVQ');</script>
+        
+
+        
+            </head>
+    <body data-page="404">
+        
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQFGNVQ&gtm_auth=137SvL6huEOmOVCzAeDyWQ&gtm_preview=env-1&gtm_cookies_win=x"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        
+        <div id="app" v-cloak>
+            
+            
+            <main>
+
+                
+                <header id="nav-header" class="header">
+                    
+                    <a id="logo" href="https://www.paramountmovies.com">
+                        <svgicon icon="paramount-movies-logo" id="logo" alt="Paramount Movies" />
+                    </a>
+
+                    <div class="header-options">
+                        
+                        <header-search id="search"></header-search>
+
+                        
+                        <a class="header-link"
+                            id="movies"
+                            href="https://www.paramountmovies.com/movies"
+                            >
+                            <svgicon icon="search-icon" alt="Paramount Movies"></svgicon> Movies
+                        </a>
+
+                        
+                        <a class="header-link last"
+                            id="signup"
+                            href="javascript:"
+                            v-scroll-to="{ el: '#newsletter-sign-up', offset: -75 }"
+                        >
+                            <span>Become An Insider</span>
+                        </a>
+
+                        
+                        
+
+                        
+                        <a id="redeem" href="https://www.paramountdigitalcopy.com/redeem" target="_blank" rel="noopener noreferrer">
+                            <span class="header-link left">
+                                Redeem Code
+                            </span>
+                            <span class="header-link right">
+                                <span class="arrow-icon"></span>
+                            </span>
+                        </a>
+                    </div>
+
+                </header>
+
+                
+                <div class="page-content">
+                        <div class="error-container">
+        <h1 class="error-title"><span>404</span></h1>
+        <p class="error-description">Sorry, the page you are looking<br> for does not exist.</p>
+        <a class="error-link" href="/">Back to Home</a>
+    </div>
+                </div>
+
+                
+                <newsletter-sign-up></newsletter-sign-up>
+
+                
+                <footer class="site-footer"
+                    v-in-viewport.once
+                    >
+                    <span class="logo" data-stagger="fade 0"><a href="/"><svgicon icon="paramount-movies-logo" alt="Paramount Movies" /></a></span>
+                    <ul class="container" data-stagger="fade 0">
+                        <li>
+                            <a href="https://www.paramountmovies.com">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.paramountmovies.com/movies">
+                                Movies
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.viacomcbs.legal/us/en/cbsi/terms-of-use" target="_blank">
+                                Terms of Use
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://privacy.paramount.com/policy" target="_blank">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://privacy.paramount.com/en/policy#additional-information-us-states" target="_blank">
+                                California Notice
+                            </a>
+                        </li>
+                        
+                        <li>
+                                                            <a href="https://www.viacomcbsprivacy.com/donotsell" target="_blank">
+                                    Do Not Sell My Personal Information
+                                </a>
+                                                    </li>
+                        <li>
+                            <a href="/criticallens">
+                                Anti-Bias Statement
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="social" data-stagger="fade 0">
+                                                                                                                                            </ul>
+                    <p class="copy" data-stagger="fade 0">&#8482; &amp; &#169; PARAMOUNT PICTURES. ALL RIGHTS RESERVED.</p>
+
+                    <p class="footer-text" data-stagger="fade 0">
+                        Official site for Paramount Movies. Watch classic movies and new releases on Blu-ray, 4K Ultra HD, DVD & Digital/Online Streaming! Redeem your digital copy <a href="https://www.paramountdigitalcopy.com/redeem" target="_blank" rel="noopener noreferrer">HERE</a>.
+                    </p>
+                </footer>
+            </main>
+
+            
+            <!--  -->
+
+            
+            <purchase-modal :is-open="is_purchase_modal_open" :purchase-item="purchase_item" :purchase-vendors="[{&quot;id&quot;:1,&quot;name&quot;:&quot;Apple TV&quot;,&quot;slug&quot;:&quot;apple-tv&quot;,&quot;type&quot;:&quot;digital&quot;,&quot;image&quot;:&quot;\/uploads\/uk-us-apple-tv-get-badge-rgb-092419.png&quot;,&quot;position&quot;:0,&quot;created_at&quot;:&quot;2019-07-27 06:55:42&quot;,&quot;updated_at&quot;:&quot;2019-10-31 01:20:31&quot;},{&quot;id&quot;:2,&quot;name&quot;:&quot;Google Play&quot;,&quot;slug&quot;:&quot;google-play&quot;,&quot;type&quot;:&quot;digital&quot;,&quot;image&quot;:&quot;\/images\/purchase\/retailers-googleplay.png&quot;,&quot;position&quot;:3,&quot;created_at&quot;:&quot;2019-07-27 06:55:42&quot;,&quot;updated_at&quot;:&quot;2019-08-01 00:28:52&quot;},{&quot;id&quot;:3,&quot;name&quot;:&quot;Prime Video&quot;,&quot;slug&quot;:&quot;prime-video&quot;,&quot;type&quot;:&quot;digital&quot;,&quot;image&quot;:&quot;\/images\/purchase\/retailers-primevideo.png&quot;,&quot;position&quot;:1,&quot;created_at&quot;:&quot;2019-07-27 06:55:42&quot;,&quot;updated_at&quot;:&quot;2019-08-01 00:28:23&quot;},{&quot;id&quot;:5,&quot;name&quot;:&quot;Fandango At Home&quot;,&quot;slug&quot;:&quot;fandango-at-home&quot;,&quot;type&quot;:&quot;digital&quot;,&quot;image&quot;:&quot;\/uploads\/purchase-vendors\/fandangoathome-primary-horizontal-c.png&quot;,&quot;position&quot;:2,&quot;created_at&quot;:&quot;2019-07-27 06:55:42&quot;,&quot;updated_at&quot;:&quot;2024-03-14 19:16:50&quot;},{&quot;id&quot;:6,&quot;name&quot;:&quot;Paramount+&quot;,&quot;slug&quot;:&quot;paramount&quot;,&quot;type&quot;:&quot;digital&quot;,&quot;image&quot;:&quot;\/uploads\/purchase-vendors\/paramount-logosvg.png&quot;,&quot;position&quot;:6,&quot;created_at&quot;:&quot;2019-07-27 06:55:42&quot;,&quot;updated_at&quot;:&quot;2024-10-28 19:08:54&quot;},{&quot;id&quot;:7,&quot;name&quot;:&quot;Amazon&quot;,&quot;slug&quot;:&quot;amazon&quot;,&quot;type&quot;:&quot;physical&quot;,&quot;image&quot;:&quot;\/images\/purchase\/retailers-amazon.png&quot;,&quot;position&quot;:7,&quot;created_at&quot;:&quot;2019-07-27 06:55:42&quot;,&quot;updated_at&quot;:&quot;2024-10-28 19:08:54&quot;},{&quot;id&quot;:8,&quot;name&quot;:&quot;Best Buy&quot;,&quot;slug&quot;:&quot;best-buy&quot;,&quot;type&quot;:&quot;physical&quot;,&quot;image&quot;:&quot;\/images\/purchase\/retailers-bestbuy.png&quot;,&quot;position&quot;:9,&quot;created_at&quot;:&quot;2019-07-27 06:55:42&quot;,&quot;updated_at&quot;:&quot;2024-10-28 19:08:54&quot;},{&quot;id&quot;:9,&quot;name&quot;:&quot;Walmart&quot;,&quot;slug&quot;:&quot;walmart&quot;,&quot;type&quot;:&quot;physical&quot;,&quot;image&quot;:&quot;\/images\/purchase\/retailers-walmart.png&quot;,&quot;position&quot;:8,&quot;created_at&quot;:&quot;2019-07-27 06:55:42&quot;,&quot;updated_at&quot;:&quot;2024-10-28 19:08:54&quot;},{&quot;id&quot;:10,&quot;name&quot;:&quot;Target&quot;,&quot;slug&quot;:&quot;target&quot;,&quot;type&quot;:&quot;physical&quot;,&quot;image&quot;:&quot;\/images\/purchase\/retailers-target.png&quot;,&quot;position&quot;:10,&quot;created_at&quot;:&quot;2019-07-27 06:55:42&quot;,&quot;updated_at&quot;:&quot;2024-10-28 19:08:54&quot;},{&quot;id&quot;:11,&quot;name&quot;:&quot;Row8&quot;,&quot;slug&quot;:&quot;row-8&quot;,&quot;type&quot;:&quot;digital&quot;,&quot;image&quot;:&quot;\/uploads\/purchase-vendors\/row8-logo-700x300-black-c.png&quot;,&quot;position&quot;:5,&quot;created_at&quot;:&quot;2024-10-28 19:08:08&quot;,&quot;updated_at&quot;:&quot;2024-10-28 19:08:53&quot;},{&quot;id&quot;:12,&quot;name&quot;:&quot;FanFlix&quot;,&quot;slug&quot;:&quot;fan-flix&quot;,&quot;type&quot;:&quot;digital&quot;,&quot;image&quot;:&quot;\/uploads\/purchase-vendors\/fanflixlogocolor700x300-c.png&quot;,&quot;position&quot;:11,&quot;created_at&quot;:&quot;2025-03-31 20:29:05&quot;,&quot;updated_at&quot;:&quot;2025-03-31 20:29:05&quot;}]" @close="closePurchaseModal"></purchase-modal>
+
+            
+            <youtube-video-modal :is-open="is_video_modal_open" :video-item="video_item" @close="closeVideoModal"></youtube-video-modal>
+        </div>
+
+        
+        <div id="shopify"></div>
+
+        
+        
+        
+        <script>
+            var DEBUG = true;
+            var SIGNED_UP_NEWSLETTER = false;
+            
+            var ENVIRONMENT = "production";
+        </script>
+
+        
+
+        
+        
+
+        <script src="/js/website.js?id=823a91a97b78be4eae2a"></script>
+
+            </body>
+</html>
