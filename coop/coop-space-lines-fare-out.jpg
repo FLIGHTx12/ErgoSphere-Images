@@ -1,0 +1,14 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)" stroke="#4CAF50" stroke-width="2" rx="10"/>
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#4CAF50">COOP GAME</text>
+  <text x="200" y="160" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff">Space Lines Fare Out</text>
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#888888">Placeholder Image</text>
+  <circle cx="200" cy="220" r="30" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.3"/>
+  <path d="M185 220 L195 210 L205 220 L215 210" stroke="#4CAF50" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>
