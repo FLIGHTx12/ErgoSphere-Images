@@ -1,0 +1,73 @@
+{
+	"folders": [
+		{
+			"path": "../ErgoSphere"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"typescript.preferences.includePackageJsonAutoImports": "off",
+		"typescript.validate.enable": false,
+		"typescript.disableAutomaticTypeAcquisition": true,
+		"terminal.integrated.commandsToSkipShell": [
+			"Get-*",
+			"Test-*",
+			"Resolve-*",
+			"Split-*",
+			"Join-*",
+			"ConvertFrom-Json",
+			"ConvertTo-Json",
+			"Select-Object",
+			"Where-Object",
+			"ForEach-Object",
+			"Sort-Object",
+			"Group-Object",
+			"Measure-Object",
+			"Write-Host",
+			"Write-Output",
+			"Format-Table",
+			"Format-List",
+			"Out-String",
+			"Invoke-WebRequest",
+			"Invoke-RestMethod",
+			"curl",
+			"ping",
+			"nslookup",
+			"Get-Process",
+			"Get-Service",
+			"Get-ComputerInfo",
+			"Get-Location",
+			"Get-Date",
+			"Get-TimeZone",
+			"Get-Culture",
+			"Get-Host",
+			"Get-ExecutionPolicy",
+			"Get-Variable",
+			"Get-Package",
+			"Get-PackageProvider",
+			"Find-Package",
+			"npm list",
+			"npm info",
+			"npm ls",
+			"npm outdated",
+			"node --version",
+			"npm --version",
+			"git status",
+			"git log",
+			"git branch",
+			"git remote",
+			"git diff",
+			"git show"
+		],
+		"terminal.integrated.confirmOnExit": "never",
+		"terminal.integrated.confirmOnKill": "never",
+		"terminal.integrated.enablePersistentSessions": true,
+		"terminal.integrated.allowChords": false,
+		"powershell.codeFormatting.autoCorrectAliases": false,
+		"powershell.integratedConsole.suppressStartupBanner": true,
+		"liveServer.settings.multiRootWorkspaceName": "ErgoSphere",
+		"powershell.cwd": "ErgoSphere"
+	}
+}
